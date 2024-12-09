@@ -9,7 +9,7 @@
 
 - 💬 Ask me about **anything :)**
 
-- 📫 How to reach me **lucas-martinelle@luriel-dev.com**
+- 📫 How to reach me **contact@luriel-dev.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
