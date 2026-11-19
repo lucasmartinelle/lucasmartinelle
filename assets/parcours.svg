@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#c0392b" />
+      <stop offset="0.8" stop-color="#c0392b" />
+      <stop offset="1" stop-color="#c0392b" stop-opacity="0.15" />
+    </linearGradient>
+  </defs>
+  <style>
+    .yr { font: 15px 'Courier New', monospace; fill: #a89c90; letter-spacing: 2px; }
+    .title { font: 26px Georgia, 'Times New Roman', serif; fill: #f3ece3; }
+    .sub { font: 14px 'Courier New', monospace; fill: #a89c90; letter-spacing: 1px; }
+    .seal { font: 22px sans-serif; fill: #d2462f; }
+    .tag { font: 13px 'Courier New', monospace; fill: #f3ece3; letter-spacing: 1px; }
+  </style>
+
+  <rect width="1200" height="400" rx="16" fill="#0f0b0a" />
+
+  <!-- Graduation des années : 2023 → 2027 -->
+  <g>
+    <line x1="80" y1="330" x2="1120" y2="330" stroke="#3a302b" stroke-width="2" />
+    <g class="yr" text-anchor="middle">
+      <line x1="120" y1="322" x2="120" y2="338" stroke="#6d625a" /><text x="120" y="365">2023</text>
+      <line x1="360" y1="322" x2="360" y2="338" stroke="#6d625a" /><text x="360" y="365">2024</text>
+      <line x1="600" y1="322" x2="600" y2="338" stroke="#6d625a" /><text x="600" y="365">2025</text>
+      <line x1="840" y1="322" x2="840" y2="338" stroke="#6d625a" /><text x="840" y="365">2026</text>
+      <line x1="1080" y1="322" x2="1080" y2="338" stroke="#6d625a" /><text x="1080" y="365">2027</text>
+    </g>
+  </g>
+
+  <!-- Freelance : 2023 → aujourd'hui -->
+  <rect x="120" y="44" width="1000" height="6" rx="3" fill="url(#fade)" />
+  <circle cx="120" cy="47" r="9" fill="#d2462f" />
+  <text x="150" y="95" class="title">Freelance · lucasmartinelle</text>
+  <text x="150" y="120" class="sub">MALT &amp; CLIENTS DIRECTS · LARAVEL · NUXT</text>
+  <text x="90" y="98" class="seal" text-anchor="middle">独</text>
+
+  <!-- MMA : 2024 → 2027 -->
+  <rect x="360" y="150" width="720" height="6" rx="3" fill="#8a2a1f" />
+  <circle cx="360" cy="153" r="9" fill="#d2462f" />
+  <circle cx="1080" cy="153" r="6" fill="none" stroke="#8a2a1f" stroke-width="2" />
+  <text x="390" y="200" class="title">Alternance · MMA (Covéa)</text>
+  <text x="390" y="225" class="sub">DÉVELOPPEUR FULL-STACK · ANGULAR · JAVA EE</text>
+  <text x="330" y="203" class="seal" text-anchor="middle">社</text>
+
+  <!-- ENSIM : 2024 → 2027 -->
+  <rect x="360" y="250" width="720" height="6" rx="3" fill="#5c1d16" />
+  <circle cx="360" cy="253" r="9" fill="#d2462f" />
+  <circle cx="1080" cy="253" r="6" fill="none" stroke="#5c1d16" stroke-width="2" />
+  <text x="390" y="296" class="title">ENSIM · Le Mans</text>
+  <text x="390" y="317" class="sub">CYCLE INGÉNIEUR INFORMATIQUE</text>
+  <text x="330" y="299" class="seal" text-anchor="middle">学</text>
+
+  <!-- Repère « aujourd'hui » (novembre 2026) -->
+  <line x1="1050" y1="30" x2="1050" y2="330" stroke="#f3ece3" stroke-opacity="0.35" stroke-dasharray="4 6" />
+  <rect x="998" y="10" width="104" height="24" rx="12" fill="#c0392b" />
+  <text x="1050" y="27" class="tag" text-anchor="middle">AUJOURD'HUI</text>
+
+  <!-- Diplôme -->
+  <text x="1080" y="388" class="sub" text-anchor="middle" fill="#d2462f">DIPLÔME</text>
+</svg>

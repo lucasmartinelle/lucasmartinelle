@@ -14,13 +14,7 @@
 
 ## 🧭 Parcours
 
-```mermaid
-timeline
-    2023 : Premières missions freelance
-    2024 : ENSIM, cycle ingénieur
-         : Alternance chez MMA (Covéa)
-    2027 : Diplôme d'ingénieur
-```
+<img width="100%" src="assets/parcours.svg" alt="Parcours : freelance depuis 2023, alternance MMA et ENSIM de 2024 à 2027" />
 
 ## 🚀 Projets
 
@@ -48,9 +42,24 @@ timeline
 
 ## ⚙️ Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=laravel,php,java,nodejs,mysql,supabase,nuxtjs,vue,angular,ts,tailwind,flutter,docker,nginx,githubactions,linux&perline=8" alt="Stack" />
-</p>
+<table align="center">
+  <tr>
+    <td><b>Back-end</b></td>
+    <td><img src="https://skillicons.dev/icons?i=laravel,php,java,nodejs,express,mysql,supabase" alt="Back-end" /><br/><img src="https://img.shields.io/badge/Livewire-4E56A6?style=flat-square&logo=livewire&logoColor=white" alt="Livewire" /> <img src="https://img.shields.io/badge/Inertia.js-9553E9?style=flat-square&logo=inertia&logoColor=white" alt="Inertia.js" /> <img src="https://img.shields.io/badge/REST%20API-555?style=flat-square" alt="REST API" /></td>
+  </tr>
+  <tr>
+    <td><b>Front-end & mobile</b></td>
+    <td><img src="https://skillicons.dev/icons?i=nuxtjs,vue,angular,ts,tailwind,flutter,dart" alt="Front-end & mobile" /><br/><img src="https://img.shields.io/badge/Alpine.js-2D3441?style=flat-square&logo=alpinedotjs&logoColor=white" alt="Alpine.js" /> <img src="https://img.shields.io/badge/Mapbox-000?style=flat-square&logo=mapbox&logoColor=white" alt="Mapbox" /></td>
+  </tr>
+  <tr>
+    <td><b>DevOps</b></td>
+    <td><img src="https://skillicons.dev/icons?i=docker,nginx,githubactions,jenkins,git,linux" alt="DevOps" /><br/><img src="https://img.shields.io/badge/Hetzner%20VPS-D50C2D?style=flat-square&logo=hetzner&logoColor=white" alt="Hetzner VPS" /> <img src="https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white" alt="Kibana" /></td>
+  </tr>
+  <tr>
+    <td><b>Méthode</b></td>
+    <td><img src="https://img.shields.io/badge/Agile%20%2F%20Scrum-c0392b?style=flat-square" alt="Agile / Scrum" /> <img src="https://img.shields.io/badge/DDD-1a1a2e?style=flat-square" alt="DDD" /> <img src="https://img.shields.io/badge/Hexagonal-1a1a2e?style=flat-square" alt="Hexagonal" /> <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Jira" /> <img src="https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white" alt="Confluence" /></td>
+  </tr>
+</table>
 
 ## 📊 Sur GitHub
 
